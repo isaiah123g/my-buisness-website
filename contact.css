@@ -12,6 +12,28 @@ header {
     
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Fix spacing below the navbar */
+.contact-container {
+  margin-top: 7rem; /* pushes form below nav */
+}
+
+/* Fix footer space issue */
+footer {
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+}
+
+body > footer {
+  margin-top: auto;
+}
+
+
 /*nav======*/
 
 nav {
